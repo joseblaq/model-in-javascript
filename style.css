@@ -1,0 +1,74 @@
+*
+{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+    text-align: center;
+    height: 100vh;
+}
+.main-page
+{
+    text-align: center;
+    margin: 2rem 0 0 0 ;
+}
+.main-page h1
+{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: slategray;
+}
+.read{
+    display: flex;
+    font-size: 1rem;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgb(2, 32, 17);
+    transition: .5s ease;
+    margin-top: 3rem;
+}
+.read:hover{
+    color: red;
+    font-size: .8rem;
+}
+.modal
+{
+    
+    width: 55%;
+    height: 60vh;
+    background: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px  silver;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    display: none;
+    transition: 1s ease;
+}
+.modal .close
+{
+    color: yellow;
+    text-align: end;
+    margin: 1rem;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: .8s ease;
+    border-radius: 5px;
+}
+.modal .close:hover
+{
+    color: red;
+    
+}
